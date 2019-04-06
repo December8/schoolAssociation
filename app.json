@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/up/up",
+    "pages/shopping/shopping",
+    "pages/mine/mine",
+    "pages/imformation/imformation"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#53A9FF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/icon/indexd.png",
+        "selectedIconPath": "/icon/index.png"
+      },
+      {
+        "pagePath": "pages/imformation/imformation",
+        "text": "资讯",
+        "iconPath": "/icon/imformationd.png",
+        "selectedIconPath": "/icon/imformation.png"
+      },
+      {
+        "pagePath": "pages/up/up",
+        "text": "发布",
+        "iconPath": "/icon/upd.png",
+        "selectedIconPath": "/icon/up.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "逛逛",
+        "iconPath": "/icon/marketd.png",
+        "selectedIconPath": "/icon/market.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/icon/mined.png",
+        "selectedIconPath": "/icon/mine.png"
+      }
+
+    ]
+  }
+}
